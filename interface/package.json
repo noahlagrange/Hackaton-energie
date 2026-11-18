@@ -1,0 +1,20 @@
+{
+  "name": "inter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "esbuild src/main.jsx --bundle --minify --jsx=automatic --outdir=public",
+    "dev": "esbuild src/main.jsx --bundle --jsx=automatic --outdir=public --servedir=public --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
